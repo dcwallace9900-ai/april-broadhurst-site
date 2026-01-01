@@ -1,10 +1,10 @@
-# Santa Barbara Luxury Real Estate
+# Real Estate Site
 
-A modern, elegant real estate website built with Next.js, featuring a sophisticated "Santa Barbara" design aesthetic — feminine, classy, and down-to-earth.
+A modern, elegant real estate website built with Next.js, featuring a sophisticated design aesthetic — classy, and down-to-earth.
 
 ## Design Philosophy
 
-This website embodies the refined elegance of Santa Barbara's coastal lifestyle through:
+This website embodies the refined elegance of Tacoma's coastal lifestyle through:
 
 - **Typography**: Cormorant Garamond (serif) for headings and Arapey for body text
 - **Color Palette**: Warm neutrals including Cream (#F5F1E8) and Soft Slate (#4A5568)
