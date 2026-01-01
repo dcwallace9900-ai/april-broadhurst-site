@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Santa Barbara Luxury Real Estate
+
+A modern, elegant real estate website built with Next.js, featuring a sophisticated "Santa Barbara" design aesthetic — feminine, classy, and down-to-earth.
+
+## Design Philosophy
+
+This website embodies the refined elegance of Santa Barbara's coastal lifestyle through:
+
+- **Typography**: Cormorant Garamond (serif) for headings and Arapey for body text
+- **Color Palette**: Warm neutrals including Cream (#F5F1E8) and Soft Slate (#4A5568)
+- **Layout**: Clean, editorial-inspired sections with generous white space
+- **Aesthetic**: Timeless, sophisticated, and approachable
+
+## Features
+
+- **Full-Bleed Hero**: Striking editorial-style hero section with elegant typography
+- **Split-Screen Bio**: Large, impactful bio section with portrait placeholder
+- **Testimonials**: Client testimonials presented with refined simplicity
+- **Minimalist Footer**: Clean contact information and social links
+- **Responsive Design**: Fully responsive across all device sizes
+- **Performance Optimized**: Built with Next.js App Router for optimal performance
+
+## Tech Stack
+
+- **Framework**: [Next.js 15](https://nextjs.org/) with App Router
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Fonts**: Google Fonts (Cormorant Garamond, Arapey)
+- **Linting**: ESLint
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ installed
+- npm, yarn, pnpm, or bun package manager
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/dcwallace9900-ai/real-estate-site.git
+cd real-estate-site
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-## Learn More
+### Build for Production
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+npm start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+real-estate-site/
+├── app/
+│   ├── page.tsx        # Home page
+│   ├── layout.tsx      # Root layout with font configuration
+│   └── globals.css     # Global styles and Tailwind config
+├── public/             # Static assets
+└── package.json        # Dependencies and scripts
+```
 
-## Deploy on Vercel
+## Customization
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Update Contact Information
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Edit `app/page.tsx` and update:
+- Email addresses
+- Phone numbers
+- Social media links
+
+### Replace Placeholder Images
+
+Replace the Unsplash URLs in `app/page.tsx` with your own images:
+- Hero background image (line 12)
+- Bio portrait image (line 33)
+
+### Modify Colors
+
+Update color variables in `app/globals.css`:
+```css
+:root {
+  --cream: #F5F1E8;
+  --soft-slate: #4A5568;
+  --warm-white: #FEFDFB;
+  --muted-charcoal: #2D3748;
+}
+```
+
+### Change Fonts
+
+Modify font imports in `app/layout.tsx` using [Google Fonts](https://fonts.google.com/)
+
+## Deployment
+
+### Deploy to Vercel
+
+The easiest deployment option:
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/dcwallace9900-ai/real-estate-site)
+
+### Other Platforms
+
+This Next.js application can be deployed to:
+- [Netlify](https://www.netlify.com/)
+- [Railway](https://railway.app/)
+- [AWS Amplify](https://aws.amazon.com/amplify/)
+- Any platform supporting Node.js
+
+## License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+## Contact
+
+For questions or collaboration:
+- GitHub: [@dcwallace9900-ai](https://github.com/dcwallace9900-ai)
+
+---
+
+Built with care for the Santa Barbara real estate market.
