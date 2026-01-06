@@ -49,8 +49,12 @@ export default function Home() {
       <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-linen/95 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <a href="/" className={`font-serif text-xl md:text-2xl font-semibold hover:opacity-80 transition-opacity ${scrolled ? 'text-forest' : 'text-white'}`}>
-              April Broadhurst Real Estate
+            <a href="/" className="hover:opacity-80 transition-opacity">
+              <img
+                src="/logo.png"
+                alt="April Broadhurst Real Estate"
+                className="h-12 w-auto"
+              />
             </a>
 
             {/* Desktop Navigation */}
@@ -59,6 +63,14 @@ export default function Home() {
               <a href="#about" className={`font-sans text-base font-bold tracking-wider hover:text-forest transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}>ABOUT</a>
               <a href="#reviews" className={`font-sans text-base font-bold tracking-wider hover:text-forest transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}>REVIEWS</a>
               <a href="#resources" className={`font-sans text-base font-bold tracking-wider hover:text-forest transition-colors ${scrolled ? 'text-charcoal' : 'text-white'}`}>CLIENT RESOURCES</a>
+              <a
+                href="https://aprilbroadhurstrealestate.kw.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-forest text-white font-sans text-sm font-medium tracking-wider hover:bg-slate transition-colors duration-300 shadow-md"
+              >
+                FEATURED LISTINGS
+              </a>
             </div>
 
             {/* Mobile Menu Button */}
@@ -84,6 +96,14 @@ export default function Home() {
               <a href="#about" onClick={() => setMobileMenuOpen(false)} className="font-sans text-base font-bold tracking-wider text-charcoal hover:text-forest transition-colors">ABOUT</a>
               <a href="#reviews" onClick={() => setMobileMenuOpen(false)} className="font-sans text-base font-bold tracking-wider text-charcoal hover:text-forest transition-colors">REVIEWS</a>
               <a href="#resources" onClick={() => setMobileMenuOpen(false)} className="font-sans text-base font-bold tracking-wider text-charcoal hover:text-forest transition-colors">CLIENT RESOURCES</a>
+              <a
+                href="https://aprilbroadhurstrealestate.kw.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-forest text-white font-sans text-sm font-medium tracking-wider hover:bg-slate transition-colors duration-300 shadow-md"
+              >
+                FEATURED LISTINGS
+              </a>
             </div>
           )}
         </div>
@@ -286,7 +306,7 @@ export default function Home() {
                 icon: ExternalLink,
                 title: "Featured Listings",
                 description: "Browse my current portfolio of exceptional Pacific Northwest properties",
-                link: "https://aprilbroadhurst.kw.com"
+                link: "https://aprilbroadhurstrealestate.kw.com"
               },
               {
                 icon: Heart,
@@ -379,7 +399,7 @@ export default function Home() {
                 of pounds of food for our community.
               </p>
               <a
-                href="https://give.efoodnet.org/fundraisers"
+                href="https://www.efoodnet.org/get-involved/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 font-sans text-forest hover:text-charcoal transition-colors font-medium"

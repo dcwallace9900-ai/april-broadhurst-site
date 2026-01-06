@@ -17,8 +17,12 @@ const arapey = Arapey({
 });
 
 export const metadata: Metadata = {
-  title: "April Broadhurst | Real Estate Rooted in the Pacific Northwest",
-  description: "Discover your Pacific Northwest home with April Broadhurst. Deep roots in Pierce County, personalized service, and genuine care for the Tacoma community.",
+  title: "April Broadhurst | Real Estate Rooted in Tacoma",
+  description: "Expert real estate services in Tacoma and Pierce County. Focused on helping buyers and sellers navigate the PNW market.",
+  keywords: "Tacoma real estate, Tacoma home buyer, Pierce County realtor, April Broadhurst, Washington real estate",
+  icons: {
+    icon: '/logo.png',
+  },
 };
 
 export default function RootLayout({
