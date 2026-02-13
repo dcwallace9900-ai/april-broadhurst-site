@@ -54,6 +54,10 @@ export default function Home() {
                 src="/logo.png"
                 alt="April Broadhurst Real Estate"
                 className="h-12 w-auto"
+                style={{
+                  mixBlendMode: 'difference',
+                  filter: 'invert(1)',
+                }}
               />
             </a>
 

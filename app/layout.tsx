@@ -19,7 +19,7 @@ const arapey = Arapey({
 export const metadata: Metadata = {
   title: "April Broadhurst | Real Estate Rooted in Tacoma",
   description: "Expert real estate services in Tacoma and Pierce County. Focused on helping buyers and sellers navigate the PNW market.",
-  keywords: "Tacoma real estate, Tacoma home buyer, Pierce County realtor, April Broadhurst, Washington real estate",
+  keywords: "Tacoma real estate, Tacoma buyer",
   icons: {
     icon: '/logo.png',
   },
